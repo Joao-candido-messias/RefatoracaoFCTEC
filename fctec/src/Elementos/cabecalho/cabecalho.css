@@ -1,18 +1,4 @@
-:root{
-    --azul-escuro: #040033;
-    --azul-claro:#171787;
-    --lilas:#67679e;
-    --ciano:#00e1ff;
-    --branco: #F2EED7;
-    --preto: #1E201E;
-    --tecnologia: #00b2b6;
-    --quimica:#9D00FF;
-    --matematica: #FF0000;
-    --fisica: #FF1E00;
-    --biologia:#00FF00;
-    --fonte__titulo:"Open Sans", sans-serif;
-}
-
+@import url(../../estilos.css);
 .cabecalho{
     background-color: var(--azul-escuro);
     height: 10vh;

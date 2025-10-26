@@ -1,0 +1,22 @@
+@import url(../../estilos.css);
+.rodape{
+    background-color: var(--azul-escuro);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 3em;
+}
+
+.rodape__texto{
+    font-weight: 400;
+    font-family: var(--fonte__titulo);
+    color: var(--branco);
+}
+
+.bi bi-r-circle{
+    vertical-align: middle; 
+    margin-left: 4px;
+    display: inline-block;
+}
