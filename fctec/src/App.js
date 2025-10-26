@@ -1,9 +1,15 @@
 import './App.css';
-import Cabecalho from './Elementos/cabecalho';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PaginaInicial from "./Paginas/Inicial";
 
 function App() {
   return (
-    <Cabecalho/>
+    
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<PaginaInicial/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

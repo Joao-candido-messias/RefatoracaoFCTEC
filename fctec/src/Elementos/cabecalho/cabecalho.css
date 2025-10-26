@@ -23,8 +23,8 @@
 }
 
 .foto_cabecalho{
-    width: 12em;
-    height: 12em;
+    width: 15em;
+    height: 15em;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -32,4 +32,5 @@
 
 .cabecalho_botao{
     margin-right: auto;
+    display: none;
 }
