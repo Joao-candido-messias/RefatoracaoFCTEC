@@ -16,9 +16,5 @@
     left: 50%;
     transform: translateX(-50%);
     margin-top: 1em;
-}
-
-.cabecalho_botao{
-    margin-right: auto;
-    display: none;
+    cursor: pointer;
 }

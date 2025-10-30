@@ -8,15 +8,11 @@
     font-weight: 700;
 }
 
-
-@media (min-width:450px) and (max-width:727px){
-
-}
-
-@media (min-width:728px) and (max-width:1024px){
-   
-}
-
-@media (min-width:1025px){
-    
+.texto{
+    font-family: var(--fonte__titulo);
+    color: var(--preto);
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 2em;
 }

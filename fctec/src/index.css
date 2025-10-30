@@ -1,5 +1,7 @@
-body {
+/* index.css */
+body, html {
   margin: 0;
+  height: 100%; /* importante */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +12,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* flex para o root */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* conteúdo principal ocupa o espaço disponível */
+main {
+  flex: 1;
 }
