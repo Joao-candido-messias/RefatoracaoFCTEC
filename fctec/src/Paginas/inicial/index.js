@@ -6,6 +6,7 @@ export default function  PaginaInicial(){
     return( 
         <>
             <Cabecalho/>
+            
             <Rodape/>
         </>
     )
