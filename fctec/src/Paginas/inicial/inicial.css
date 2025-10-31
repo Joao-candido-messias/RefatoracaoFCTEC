@@ -1,14 +1,14 @@
 @import url(../../estilos.css);
 
-.titulo{
-    font-size: 1.5em;
+.tituloPaginaInicial{
+    font-size:2em;
     text-align: center;
     font-family: var(--fonte__titulo);
     color: var(--preto);
     font-weight: 700;
 }
 
-
+/* 
 @media (min-width:450px) and (max-width:727px){
 
 }
@@ -19,4 +19,4 @@
 
 @media (min-width:1025px){
     
-}
+} */

@@ -1,7 +1,7 @@
 @import url(../../estilos.css);
 
-.titulo{
-    font-size: 1.5em;
+.tituloParagrafo{
+    font-size: 2em;
     text-align: center;
     font-family: var(--fonte__titulo);
     color: var(--preto);
