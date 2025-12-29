@@ -2,7 +2,7 @@ import './inicial.css'
 import Cabecalho from '../../Elementos/cabecalho'
 import Rodape from '../../Elementos/rodape'
 import ParagrafoComTitulo from '../../Elementos/paragrafoComTitulo'
-import CardProjeto from '../../Elementos/cardProjeto'
+import Projetos from '../../Elementos/Projetos'
 
 export default function  PaginaInicial(){
     return( 
@@ -13,10 +13,7 @@ export default function  PaginaInicial(){
                     
                     <p>Colocar aqui um carrosel com as fotos da feira</p>
 
-                    <h1 className="tituloPaginaInicial">Confira aqui nossos projetos</h1>
-                    {/* desonvolver um elemento de projeto e fazer com que cada um deles apareça a partir de uma lista. */}
-
-                    <CardProjeto/>
+                    <Projetos/>
 
                 </main>
             <Rodape/>
