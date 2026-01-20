@@ -11,7 +11,7 @@ export default function  PaginaInicial(){
                 <main>
                     <ParagrafoComTitulo titulo={"FCTEC 2024"} texto={<>A Feira de Ciências e Tecnologia do Instituto Federal Farroupilha — <i>Campus</i> Júlio de Castilhos foi um verdadeiro sucesso. Pioneira no campus, marcou a realização da primeira edição do evento, que ampliou o conhecimento dos participantes por meio de experiências práticas e interativas. Além de integrar áreas como física, química, biologia e tecnologia, a feira premiou o esforço de alunos e professores e serviu como atividade extracurricular para os estudantes do terceiro ano do curso técnico em Informática do campus.</>}/>
                     
-                    <p>Colocar aqui um carrosel com as fotos da feira</p>
+                    {/* <p>Colocar aqui um carrosel com as fotos da feira</p> */}
 
                     <Projetos/>
 

@@ -8,7 +8,7 @@ export default function CardProjeto({nome}){
                     alt='Imagem de capa do post'
                     src={`/assets/imagens/Projetos/${nome}.jpg`}
                 />
-                <h2 className='titulo'></h2>
+                <h2 className='titulo'>{nome}</h2>
 
             </div>  
     )
